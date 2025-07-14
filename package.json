@@ -23,18 +23,18 @@
   },
   "homepage": "https://github.com/osm-in/openstreetmap.in#readme",
   "dependencies": {
+    "@turf/bbox-polygon": "^6.0.1",
     "mapbox-gl-controls": "^1.6.5",
     "moment": "^2.29.0",
     "rss-parser": "^3.9.0",
     "timediff": "^1.1.1",
-    "xml2js": "^0.4.23",
-    "@turf/bbox-polygon": "^6.0.1"
+    "xml2js": "^0.6.2"
   },
   "devDependencies": {
     "browserify-livereload": "^1.0.10",
-    "watchify": "^3.11.1",
-    "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.0"
+    "watchify": "^4.0.0",
+    "webpack": "^5.100.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
   }
 }
